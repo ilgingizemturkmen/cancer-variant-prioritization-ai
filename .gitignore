@@ -216,3 +216,21 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+
+# -----------------------------
+# NOAR BioAI generated datasets
+# -----------------------------
+
+data/raw/*
+!data/raw/.gitkeep
+
+data/processed/*.csv
+!data/processed/.gitkeep
+
+results/*.json
+results/*.csv
+
+figures/*.png
+figures/*.jpg
+figures/*.jpeg
