@@ -234,3 +234,7 @@ results/*.csv
 figures/*.png
 figures/*.jpg
 figures/*.jpeg
+
+# Downloaded HGNC reference data
+data/reference/*
+!data/reference/.gitkeep
